@@ -1,0 +1,9 @@
+---
+name: Swipestripe Bootstrap Gallery
+---
+Product:
+  extensions:
+    - 'GalleryExtension'
+Product_Controller:
+  extensions:
+    - 'Product_BootstrapGallery'

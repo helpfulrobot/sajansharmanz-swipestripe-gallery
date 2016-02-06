@@ -1,0 +1,32 @@
+{
+	"name": "sajansharmanz/swipestripe-gallery",
+	"description": "Add Product Images to your SwipeStripe Product",
+	"type": "silverstripe-module",
+	"homepage": "http://github.com/sajansharmanz/swipestripe-gallery",
+	"keywords": [
+		"silverstripe", 
+		"bootstrap", 
+		"gallery",
+		"SwipeStripe",
+		"products",
+		"images"
+	],
+	"authors": [
+		{
+			"name": "Sajan Sharma",
+			"email": "sajansharmanz@gmail.com"
+		}
+	],
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "http://github.com/sajansharmanz/swipestripe-gallery"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.1",
+		"silverstripe/cms": ">=3.1",
+		"sajansharmanz/silverstripe-bootstrap-gallery": "~1.0.0"
+	},
+	"extra": {
+		"installer-name": "swipestripe-gallery"
+	}
+}
