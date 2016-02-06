@@ -27,7 +27,7 @@
 
 						<ol class="carousel-indicators">
 							<% loop Product.OrderedImages %>
-								<li data-target="#product-image-carousel" data-slide-to="$Pos(0)" class="indicator-pos"></li>
+								<li data-target="#product-image-carousel" data-slide-to="$Pos(0)" class="indicator-pos" style="background-image: url('$Filename');"></li>
 							<% end_loop %>
 						</ol>
 					</div>
