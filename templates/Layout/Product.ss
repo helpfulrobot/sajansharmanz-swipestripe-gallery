@@ -4,11 +4,6 @@
 			<div class="col-sm-5">
 				<div id="links">
 					<div id="product-image-carousel" class="carousel slide" data-ride="carousel">
-						<!-- <ol class="carousel-indicators">
-							<% loop Product.OrderedImages %>
-								<li data-target="#product-image-carousel" data-slide-to="$Pos(0)" class="indicator-pos"></li>
-							<% end_loop %>
-						</ol> -->
 
 						<div class="carousel-inner" role="listbox">
 							<% loop Product.OrderedImages %>
@@ -29,6 +24,12 @@
 						   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 						   <span class="sr-only">Next</span>
 						 </a>
+
+						<ol class="carousel-indicators">
+							<% loop Product.OrderedImages %>
+								<li data-target="#product-image-carousel" data-slide-to="$Pos(0)" class="indicator-pos"></li>
+							<% end_loop %>
+						</ol>
 					</div>
 					<p>(Click image to enlarge)</p>
 				</div>

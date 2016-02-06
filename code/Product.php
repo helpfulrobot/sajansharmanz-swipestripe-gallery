@@ -15,7 +15,7 @@ class Product_BootstrapGallery extends DataExtension {
 		Requirements::css('swipestripe-gallery/css/blueimp-gallery.min.css');
 		Requirements::css('swipestripe-gallery/css/bootstrap-image-gallery.min.css');
 		Requirements::css('swipestripe-gallery/css/bootstrap.min.css');
-		Requirements::css('swipestripe-gallery/css/custom.css');
+		Requirements::css('swipestripe-gallery/css/carousel-custom.css');
 
 		// Javascript Files
 		Requirements::javascript('swipestripe-gallery/javascript/jquery.min.js');

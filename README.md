@@ -10,9 +10,6 @@ This module was created by Creative Gorillas (Sajan Sharma).
 - This module is 100% free to use. You are not required to purchase any licenses.
 - It extends the [Bootstrap Gallery Module](https://github.com/sajansharmanz/silverstripe-bootstrap-gallery) by [Creative Gorillas (Sajan Sharma)](https://github.com/sajansharmanz)
 
-###### Still To Do
-At the moment it uses a [Bootstrap Carousel](http://getbootstrap.com) to display product images on the product page. In the future I am looking to implement either thumbnails or carousel indicators to let the person know there are multiple images that can be viewed rather than having to guess
-
 ## Installation
 Manual Installation:
 - Download Zip File

@@ -1,0 +1,30 @@
+#product-image-carousel {
+	.carousel-inner {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.carousel-indicators {
+		position: initial;
+		margin: 15px auto;
+		li {
+			background-size: 40px 40px;
+			width: 40px;
+			height: 40px;
+			border-radius: 0px;
+			opacity: 1;
+		}
+		.active {
+			width: 40px;
+			height: 40px;
+			margin: 1px;
+		}
+	}
+	.carousel-control.right {
+		background-image: none;
+	}
+	.carousel-control.left {
+		background-image: none;
+	}
+}
