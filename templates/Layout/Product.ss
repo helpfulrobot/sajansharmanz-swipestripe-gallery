@@ -58,13 +58,5 @@
 	$(document).ready(function() {
 		$('#product-image-carousel').find('.item').first().addClass('active');
 		$('#product-image-carousel').find('.indicator-pos').first().addClass('active');
-
-		$('#product-image-carousel').swiperight(function() {
-			$(this).carousel('prev');
-		});
-
-		$('#product-image-carousel').swipeleft(function() {
-			$(this).carousel('next');
-		});
 	});
 </script>
