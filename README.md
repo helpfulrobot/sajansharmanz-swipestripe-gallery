@@ -37,10 +37,3 @@ Add Product Images:
 
 ## License
 This module is available under the BSD 3-clause
-
-## Additional Information
-You are not required to add the Bootstrap Framework or Blueimp Bootstrap Gallery to your project to get this Gallery working. I have included the necessary files for it to work within the module itself, therefore, it will work on any project out of the box
-
-I am still fairly new to creating Silverstripe Modules, the frank-mullenger module was used as guidance and this module. I have tested the module and it was working fine, however, if you find any errors or bugs, please let me know.
-
-Good Luck and Enjoy!
